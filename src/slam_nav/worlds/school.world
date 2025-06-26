@@ -31,14 +31,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file:///home/wjq/ros2_ws/src/slam_nav/model/sipingchangjing0512.dae</uri>
+              <uri>file:///src/slam_nav/model/sipingchangjing0512.dae</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file:///home/wjq/ros2_ws/src/slam_nav/model/sipingchangjing0512.dae</uri>
+              <uri>file:///src/slam_nav/model/sipingchangjing0512.dae</uri>
             </mesh>
           </geometry>
         </collision>
