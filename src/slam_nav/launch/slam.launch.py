@@ -36,8 +36,8 @@ def generate_launch_description():
             os.path.join(get_package_share_directory('ros_gz_sim'), 'launch', 'ros_gz_spawn_model.launch.py')
         ]),
         launch_arguments={
-            'world': 'demo',#world名称
-            'file': urdf_file,
+            'world': 'school.world',#world名称
+            'file': 'ugv_rover.urdf',
             'entity_name': 'ugv_rover',
             'bridge_name': 'ugv_rover_bridge',
             'config_file': config_file,  # 引用 YAML 文件
