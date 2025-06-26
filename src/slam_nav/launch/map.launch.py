@@ -8,7 +8,8 @@ from ament_index_python.packages import get_package_share_directory
 def generate_launch_description():
     pkg_share = get_package_share_directory('slam_nav')
     world_file = os.path.join(pkg_share, 'worlds', 'school.world')
-
+    urdf_file = os.path.join(pkg_share, 'urdf', 'ugv_rover.urdf')
+    
     use_gazebo_gui = DeclareLaunchArgument(
         'use_gazebo_gui',
         default_value='true',
@@ -24,7 +25,14 @@ def generate_launch_description():
         }.items()
     )
 
+    robot_state_publisher_node = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        parameters=[{'robot_description': open(urdf_file).read()}]
+    )
+
     return LaunchDescription([
         use_gazebo_gui,
         gz_sim_launch,
+        robot_state_publisher_node,
     ])
