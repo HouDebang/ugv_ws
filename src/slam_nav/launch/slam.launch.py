@@ -9,7 +9,7 @@ from ament_index_python.packages import get_package_share_directory
 def generate_launch_description():
     pkg_share = get_package_share_directory('slam_nav')
     urdf_file = os.path.join(pkg_share, 'urdf', 'ugv_rover.urdf')
-    world_file = os.path.join(pkg_share, 'worlds', 'world0.world')
+    world_file = os.path.join(pkg_share, 'worlds', 'school.world')
     config_file = os.path.join(pkg_share, 'config', 'bridge.yaml')  # YAML 文件路径
 
     # 读取 URDF 文件内容
@@ -36,8 +36,8 @@ def generate_launch_description():
             os.path.join(get_package_share_directory('ros_gz_sim'), 'launch', 'ros_gz_spawn_model.launch.py')
         ]),
         launch_arguments={
-            'world': 'school.world',#world名称
-            'file': 'ugv_rover.urdf',
+            'world': 'demo',#world名称
+            'file': urdf_file,
             'entity_name': 'ugv_rover',
             'bridge_name': 'ugv_rover_bridge',
             'config_file': config_file,  # 引用 YAML 文件
@@ -48,6 +48,14 @@ def generate_launch_description():
     )
 
     delayed_spawn = TimerAction(period=10.0, actions=[spawn_model_launch])
+
+    joint_state_publisher_node = Node(
+        package='joint_state_publisher',
+        executable='joint_state_publisher',
+        name='joint_state_publisher',
+        output='screen',
+        parameters=[{'use_sim_time': True}]
+    )
 
     return LaunchDescription([
         use_gazebo_gui,
@@ -79,4 +87,5 @@ def generate_launch_description():
             parameters=[{'use_sim_time': True}],
         ),
         
+        joint_state_publisher_node
     ])
