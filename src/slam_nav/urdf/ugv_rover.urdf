@@ -24,7 +24,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/base_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/base_link.stl" />
       </geometry>
       <material
         name="">
@@ -38,7 +38,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/base_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/base_link.stl" />
       </geometry>
     </collision>
   </link>
@@ -86,7 +86,7 @@
         rpy="1.5708 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/left_up_wheel_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/left_up_wheel_link.stl" />
       </geometry>
       <material
         name="">
@@ -100,7 +100,7 @@
         rpy="1.5708 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/left_up_wheel_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/left_up_wheel_link.stl" />
       </geometry>
     </collision>
   </link>
@@ -139,7 +139,7 @@
         rpy="1.5708 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/left_down_wheel_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/left_down_wheel_link.stl" />
       </geometry>
       <material
         name="">
@@ -153,7 +153,7 @@
         rpy="1.5708 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/left_down_wheel_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/left_down_wheel_link.stl" />
       </geometry>
     </collision>
   </link>
@@ -192,7 +192,7 @@
         rpy="1.5708 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/right_up_wheel_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/right_up_wheel_link.stl" />
       </geometry>
       <material
         name="">
@@ -206,7 +206,7 @@
         rpy="1.5708 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/right_up_wheel_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/right_up_wheel_link.stl" />
       </geometry>
     </collision>
   </link>
@@ -245,7 +245,7 @@
         rpy="1.5708 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/right_down_wheel_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/right_down_wheel_link.stl" />
       </geometry>
       <material
         name="">
@@ -259,7 +259,7 @@
         rpy="1.5708 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/right_down_wheel_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/right_down_wheel_link.stl" />
       </geometry>
     </collision>
   </link>
@@ -306,7 +306,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/3d_camera_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/3d_camera_link.stl" />
       </geometry>
       <material
         name="">
@@ -320,7 +320,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/3d_camera_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/3d_camera_link.stl" />
       </geometry>
     </collision>
   </link>
@@ -361,7 +361,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/base_lidar_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/base_lidar_link.stl" />
       </geometry>
       <material
         name="">
@@ -375,7 +375,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/base_lidar_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/base_lidar_link.stl" />
       </geometry>
     </collision>
   </link>
@@ -414,7 +414,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/pt_base_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/pt_base_link.stl" />
       </geometry>
       <material
         name="">
@@ -428,7 +428,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/pt_base_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/pt_base_link.stl" />
       </geometry>
     </collision>
   </link>
@@ -467,7 +467,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/pt_link1.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/pt_link1.stl" />
       </geometry>
       <material
         name="">
@@ -481,7 +481,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/pt_link1.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/pt_link1.stl" />
       </geometry>
     </collision>
   </link>
@@ -525,7 +525,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/pt_link2.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/pt_link2.stl" />
       </geometry>
       <material
         name="">
@@ -539,7 +539,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/pt_link2.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/pt_link2.stl" />
       </geometry>
     </collision>
   </link>
@@ -583,7 +583,7 @@
         rpy="0 -1.5708 1.5708" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/pt_camera_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/pt_camera_link.stl" />
       </geometry>
       <material
         name="">
@@ -597,7 +597,7 @@
         rpy="0 -1.5708 1.5708" />
       <geometry>
         <mesh
-          filename="file:///home/wjq/ros2_ws/install/slam_nav/share/slam_nav/meshes/ugv_rover/pt_camera_link.stl" />
+          filename="package://slam_nav/meshes/ugv_rover/pt_camera_link.stl" />
       </geometry>
     </collision>
   </link>
